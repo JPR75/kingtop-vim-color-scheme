@@ -3,9 +3,9 @@
 " Version:     1.0.0
 " Last Change: nov. 17 2012
 " License:     LGPLv3
-" Maintainer: Jean-Paul Ricaud
-" Homepage:   
-" Note: based on Inkpot color scheme (https://github.com/ciaranm/inkpot)
+" Maintainer:  Jean-Paul Ricaud
+" Homepage:    https://gitorious.org/kingtop-vim-color-scheme/pages/Home
+" Note:        based on Inkpot color scheme (https://github.com/ciaranm/inkpot)
 
 set background=dark
 hi clear
@@ -20,8 +20,8 @@ hi CursorLine     guibg=#000000
 
 hi IncSearch      gui=BOLD   guifg=#303030   guibg=#cdff60
 hi Search         gui=NONE   guifg=#303030   guibg=#ad7b57
-hi ErrorMsg       gui=BOLD   guifg=#ffffff   guibg=#632525
-hi WarningMsg     gui=BOLD   guifg=#ffffff   guibg=#ce8e4e
+hi ErrorMsg       gui=NONE   guifg=#ffffff   guibg=#800000
+hi WarningMsg     gui=NONE   guifg=#ffffff   guibg=#ce8e4e
 hi ModeMsg        gui=BOLD   guifg=#7e7eae   guibg=NONE
 hi MoreMsg        gui=BOLD   guifg=#7e7eae   guibg=NONE
 hi Question       gui=BOLD   guifg=#ffcd00   guibg=NONE
