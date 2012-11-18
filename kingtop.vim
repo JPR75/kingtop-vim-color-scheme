@@ -1,7 +1,7 @@
 " Vim color file
 " Name:        kingtop.vim
 " Version:     1.0.0
-" Last Change: nov. 17 2012
+" Last Change: nov. 18 2012
 " License:     LGPLv3
 " Maintainer:  Jean-Paul Ricaud
 " Homepage:    https://gitorious.org/kingtop-vim-color-scheme/pages/Home
@@ -18,10 +18,10 @@ let colors_name = "kingtop"
 hi Normal         gui=NONE   guifg=#cfbfad   guibg=#0b0b0e
 hi CursorLine     guibg=#000000
 
-hi IncSearch      gui=BOLD   guifg=#303030   guibg=#cdff60
-hi Search         gui=NONE   guifg=#303030   guibg=#ad7b57
-hi ErrorMsg       gui=NONE   guifg=#ffffff   guibg=#800000
-hi WarningMsg     gui=NONE   guifg=#ffffff   guibg=#ce8e4e
+hi IncSearch      gui=BOLD   guifg=#000000   guibg=#ff6a00
+hi Search         gui=NONE   guifg=#000000   guibg=#ff6a00
+hi ErrorMsg       gui=NONE   guifg=#ffffff   guibg=#b00000
+hi WarningMsg     gui=NONE   guifg=#ffffff   guibg=#c04000
 hi ModeMsg        gui=BOLD   guifg=#7e7eae   guibg=NONE
 hi MoreMsg        gui=BOLD   guifg=#7e7eae   guibg=NONE
 hi Question       gui=BOLD   guifg=#ffcd00   guibg=NONE
@@ -41,8 +41,8 @@ hi MBEVisibleChanged         guifg=#eeeeee   guibg=#4e4e8f
 
 hi DiffText       gui=NONE   guifg=#000000   guibg=#ff6a00
 hi DiffChange     gui=NONE   guifg=#ffffcd   guibg=#001db6
-hi DiffDelete     gui=NONE   guifg=#ffffcd   guibg=#00680A
-hi DiffAdd        gui=NONE   guifg=#ffffcd   guibg=#00680A
+hi DiffDelete     gui=NONE   guifg=#ffffcd   guibg=#00680a
+hi DiffAdd        gui=NONE   guifg=#ffffcd   guibg=#00680a
 
 hi Cursor         gui=NONE   guifg=#404040   guibg=#8b8bff
 hi lCursor        gui=NONE   guifg=#404040   guibg=#8fff8b
@@ -74,8 +74,10 @@ hi Type           gui=NONE   guifg=#c10000   guibg=NONE
 hi Underlined     gui=BOLD   guifg=#df9f2d   guibg=NONE
 hi TaglistTagName gui=BOLD   guifg=#808bed   guibg=NONE
 
-hi cSpecialCharacter  gui=NONE guifg=#37B700   guibg=#1a1a3a
-hi cFormat            gui=NONE guifg=#37B700   guibg=#1a1a3a
+hi cSpecialCharacter  gui=NONE guifg=#37b700   guibg=#1a1a3a
+hi cFormat            gui=NONE guifg=#37b700   guibg=#1a1a3a
+
+hi pythonBuiltin  gui=NONE   guifg=#dd0c05   guibg=NONE
 
 hi Pmenu          gui=NONE   guifg=#eeeeee   guibg=#4e4e8f
 hi PmenuSel       gui=BOLD   guifg=#eeeeee   guibg=#2e2e3f
