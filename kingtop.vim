@@ -39,10 +39,10 @@ hi MBEChanged                guifg=#eeeeee   guibg=#2e2e3f
 hi MBEVisibleNormal          guifg=#cfcfcd   guibg=#4e4e8f
 hi MBEVisibleChanged         guifg=#eeeeee   guibg=#4e4e8f
 
-hi DiffText       gui=NONE   guifg=#ffffcd   guibg=#4a2a4a
-hi DiffChange     gui=NONE   guifg=#ffffcd   guibg=#306b8f
-hi DiffDelete     gui=NONE   guifg=#ffffcd   guibg=#6d3030
-hi DiffAdd        gui=NONE   guifg=#ffffcd   guibg=#306d30
+hi DiffText       gui=NONE   guifg=#000000   guibg=#ff6a00
+hi DiffChange     gui=NONE   guifg=#ffffcd   guibg=#001db6
+hi DiffDelete     gui=NONE   guifg=#ffffcd   guibg=#00680A
+hi DiffAdd        gui=NONE   guifg=#ffffcd   guibg=#00680A
 
 hi Cursor         gui=NONE   guifg=#404040   guibg=#8b8bff
 hi lCursor        gui=NONE   guifg=#404040   guibg=#8fff8b
