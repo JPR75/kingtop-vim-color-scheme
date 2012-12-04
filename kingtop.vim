@@ -1,7 +1,7 @@
 " Vim color file
 " Name:        kingtop.vim
 " Version:     1.0.1
-" Last Change: nov. 25 2012
+" Last Change: dec. 04 2012
 " License:     LGPLv3
 " Maintainer:  J-P Ricaud
 " Homepage:    https://gitorious.org/kingtop-vim-color-scheme/pages/Home
@@ -19,7 +19,7 @@ hi Normal         gui=NONE   guifg=#cfbfad   guibg=#0b0b0e
 hi CursorLine     guibg=#000000
 
 hi IncSearch      gui=BOLD   guifg=#000000   guibg=#ff6a00
-hi Search         gui=NONE   guifg=#000000   guibg=#ff6a00
+hi Search         gui=NONE   guifg=#000000   guibg=#de4900
 hi ErrorMsg       gui=NONE   guifg=#ffffff   guibg=#b00000
 hi WarningMsg     gui=NONE   guifg=#ffffff   guibg=#c04000
 hi ModeMsg        gui=BOLD   guifg=#7e7eae   guibg=NONE
