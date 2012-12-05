@@ -18,7 +18,7 @@ let colors_name = "kingtop"
 hi Normal         gui=NONE   guifg=#cfbfad   guibg=#0b0b0e
 hi CursorLine     guibg=#000000
 
-hi IncSearch      gui=BOLD   guifg=#000000   guibg=#ff6a00
+hi IncSearch      gui=BOLD   guifg=#000000   guibg=#ff8c00
 hi Search         gui=NONE   guifg=#000000   guibg=#de4900
 hi ErrorMsg       gui=NONE   guifg=#ffffff   guibg=#b00000
 hi WarningMsg     gui=NONE   guifg=#ffffff   guibg=#c04000
@@ -88,8 +88,8 @@ hi htmlEndTag     gui=NONE   guifg=#0fbfad   guibg=NONE
 
 
 if v:version >= 700
-  hi Pmenu          gui=NONE   guifg=#eeeeee   guibg=#4e4e8f
-  hi PmenuSel       gui=BOLD   guifg=#eeeeee   guibg=#2e2e3f
+  hi Pmenu          gui=NONE   guifg=#cfbfad   guibg=#2e2e3f
+  hi PmenuSel       gui=BOLD   guifg=#eeeeee   guibg=#4e4e8f
   hi PmenuSbar      gui=BOLD   guifg=#eeeeee   guibg=#6e6eaf
   hi PmenuThumb     gui=BOLD   guifg=#eeeeee   guibg=#6e6eaf
 
