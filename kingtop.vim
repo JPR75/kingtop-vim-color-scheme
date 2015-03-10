@@ -98,6 +98,6 @@ if v:version >= 700
   hi SpellLocal   gui=undercurl guisp=#cccc66
   hi SpellCap     gui=undercurl guisp=#66cccc
 
-  hi MatchParen   gui=NONE      guifg=#cfbfad   guibg=#4e4e8f
+  hi MatchParen   gui=NONE   guifg=#000000   guibg=#de4900
 
 endif
